@@ -1,0 +1,10 @@
+rosmaster_driver:
+  ros__parameters:
+    port: "/dev/ttyUSB0"
+    baudrate: 115200
+    publish_rate_hz: 10.0
+    command_timeout_sec: 1.0
+    invert_motor_1: false
+    invert_motor_2: false
+    invert_motor_3: false
+    invert_motor_4: false
